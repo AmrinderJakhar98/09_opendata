@@ -25,9 +25,9 @@ Our learning objectives are to:
 
 #install.packages("sf")
 #install.packages("daymetr")
-#install.packages("remotes")
-#remotes::install_github("ropensci/USAboundaries")
-#remotes::install_github("ropensci/USAboundariesData")
+# install.packages("remotes")
+#remotes::install_github("ropensci/USAboundaries", force = TRUE)
+#remotes::install_github("ropensci/USAboundariesData", force = TRUE)
 
 library(tidyverse)
 library(USAboundaries) # for US state boundaries
